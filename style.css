@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 50px;
+  border-radius: 20px;
+  background-color: #00000026;
+}
+.active {
+  border: 3px outset #8b4513;
+  color: black;
+  background-color: rgba(255, 69, 0, 0.2);
+  font-weight: 700;
+  transition: 0.3s;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #8b4513;
+}
+
+body {
+  font-size: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/qizilqum.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5deb3;
+  transition: 0.3s;
+}
+
+p::first-letter {
+  font-size: 80px;
+}
+
+#changeBgBtn {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 0;
+  border: 3px inset black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.165);
+  color: wheat;
+  &:active{
+    border: 3px inset #8b4513;
+  color: black;
+  background-color: rgba(255, 69, 0, 0.2);
+  font-weight: 700;
+  transition: 0.3s;
+  }
+}
+
+.fonts-btns-container {
+  position: fixed;
+  top: 40%;
+  left: 0.5px;
+  display: flex;
+  gap: 15px;
+}
+.font-btn {
+  border: 0;
+  border: 3px outset black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.165);
+  color: wheat;
+}
+
+.buttons-container {
+  position: fixed;
+  left: -5px;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn {
+  text-align: left;
+  border: 3px outset black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.165);
+  color: wheat;
+}
+.active {
+  border: 3px outset #8b4513;
+  color: black;
+  background-color: rgba(255, 69, 0, 0.2);
+  font-weight: 500;
+  transition: 0.3s;
+}
